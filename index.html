@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Emezeta - Música</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>DJ <span>EMEZETA</span></h1>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio" class="active">Inicio</a></li>
+                <li><a href="#biografia">Biografía</a></li>
+                <li><a href="#musica">Música</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="subtitle">DJ Profesional</h2>
+                <h1 class="title">DJ <span>EMEZETA</span></h1>
+                <p class="description">Música que hace vibrar el alma. Beats que mueven el cuerpo.</p>
+                <div class="hero-buttons">
+                    <a href="#musica" class="btn btn-primary">Escuchar Música</a>
+                    <a href="#contacto" class="btn btn-secondary">Contrátame</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/PORTADA.jpeg" alt="DJ Emezeta" class="hero-photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Biografía Section -->
+    <section id="biografia" class="biografia section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Biografía</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="biografia-content">
+                <div class="biografia-text">
+                    <h3>Sobre DJ Emezeta</h3>
+                    <p>DJ Emezeta es un artista con más de 10 años de experiencia en la escena musical. Especializado en géneros como EDM, Reggaetón, House y Hip Hop, ha llevado su música a los mejores clubs y eventos de la región.</p>
+                    <p>Su pasión por la música comenzó desde muy joven, y hoy en día es reconocido por su energía en el escenario y su capacidad para leer la multitud, creando experiencias inolvidables.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h4>10+</h4>
+                            <p>Años de experiencia</p>
+                        </div>
+                        <div class="stat">
+                            <h4>500+</h4>
+                            <p>Eventos realizados</p>
+                        </div>
+                        <div class="stat">
+                            <h4>50K+</h4>
+                            <p>Seguidores</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="biografia-image">
+                    <!-- Replace the placeholder below with your actual image file. If your image is named EMEZ.png and stored in an 'assets/images' folder, update the src to 'assets/images/EMEZ.png' -->
+                    <img src="assets/images/EMEZ.png" alt="DJ Emezeta" class="biografia-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Música Section -->
+    <section id="musica" class="musica section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Música</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="album-section">
+                <h3 class="album-title">Mixes 2026</h3>
+                <div class="tracks-list">
+                    <div class="track-item track-header">
+                        <div class="track-artwork-container"></div>
+                        <div class="track-details">
+                            <h4 class="track-name">Título</h4>
+                        </div>
+                        <div class="track-bpm">BPM</div>
+                        <div class="track-genre">Género</div>
+                        <div class="track-producer">DJ / Productor</div>
+                    </div>
+                    <div class="track-item" data-track="track1">
+                        <div class="track-artwork-container">
+                            <img src="assets/images/Diseño Mix.png" alt="Mix Discoteca" class="track-album-art">
+                            <button class="track-play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                        <div class="track-details">
+                            <h4 class="track-name">Mix Discoteca</h4>
+                            <p class="track-artist">DJ Emezeta</p>
+                        </div>
+                        <div class="track-bpm">128</div>
+                        <div class="track-genre">Reggaetón</div>
+                        <div class="track-producer">DJ Emezeta</div>
+                    </div>
+                    <div class="track-item" data-track="track2">
+                        <div class="track-artwork-container">
+                            <div class="track-album-art-placeholder">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <button class="track-play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                        <div class="track-details">
+                            <h4 class="track-name">Enero Mix</h4>
+                            <p class="track-artist">DJ Emezeta</p>
+                        </div>
+                        <div class="track-bpm">125</div>
+                        <div class="track-genre">House</div>
+                        <div class="track-producer">DJ Emezeta</div>
+                    </div>
+                    <div class="track-item" data-track="track3">
+                        <div class="track-artwork-container">
+                            <div class="track-album-art-placeholder">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <button class="track-play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                        <div class="track-details">
+                            <h4 class="track-name">Febrero Mix</h4>
+                            <p class="track-artist">DJ Emezeta</p>
+                        </div>
+                        <div class="track-bpm">130</div>
+                        <div class="track-genre">EDM</div>
+                        <div class="track-producer">DJ Emezeta</div>
+                    </div>
+                    <div class="track-item" data-track="track4">
+                        <div class="track-artwork-container">
+                            <div class="track-album-art-placeholder">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <button class="track-play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                        <div class="track-details">
+                            <h4 class="track-name">Marzo Mix</h4>
+                            <p class="track-artist">DJ Emezeta</p>
+                        </div>
+                        <div class="track-bpm">100</div>
+                        <div class="track-genre">Trap</div>
+                        <div class="track-producer">DJ Emezeta</div>
+                    </div>
+                </div>
+            </div>
+            <div class="player-container" id="playerContainer">
+                <div class="player">
+                    <div class="player-info">
+                        <h4 id="currentTrackTitle">Selecciona una canción</h4>
+                    </div>
+                    <div class="player-controls">
+                        <audio id="audioPlayer" src=""></audio>
+                        <button id="prevBtn"><i class="fas fa-step-backward"></i></button>
+                        <button id="playPauseBtn"><i class="fas fa-play"></i></button>
+                        <button id="nextBtn"><i class="fas fa-step-forward"></i></button>
+                    </div>
+                    <div class="player-progress">
+                        <div class="progress-bar" id="progressBar">
+                            <div class="progress" id="progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería Section -->
+    <section id="galeria" class="galeria section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Galería</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Evento 1</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Evento 2</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Evento 3</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Evento 4</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Evento 5</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Evento 6</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="contacto section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contacto</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contacto-content">
+                <div class="contacto-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>emezetaremixer@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>+51 944 061 311</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Pucallpa, Perú</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-spotify"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-soundcloud"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <form class="contacto-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Tu email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Tu mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 DJ Emezeta. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
