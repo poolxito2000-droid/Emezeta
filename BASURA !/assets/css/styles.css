@@ -761,6 +761,26 @@ body {
     .biografia-image {
         order: -1;
     }
+
+    .tracks-list {
+        gap: 15px;
+    }
+
+    .track-item {
+        grid-template-columns: 50px 1fr;
+        gap: 15px;
+        padding: 12px;
+    }
+
+    .track-bpm,
+    .track-genre,
+    .track-producer {
+        display: none;
+    }
+
+    .track-item.track-header {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -791,13 +811,34 @@ body {
         font-size: 2.5rem;
     }
 
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
     .stats {
         flex-direction: column;
-        gap: 30px;
+        gap: 25px;
     }
 
     .section-header h2 {
         font-size: 2rem;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .info-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
     }
 }
 
@@ -806,12 +847,38 @@ body {
         font-size: 2rem;
     }
 
-    .hero-buttons {
-        flex-direction: column;
+    .hero-text .subtitle {
+        font-size: 1rem;
     }
 
-    .btn {
-        width: 100%;
-        text-align: center;
+    .hero-text .description {
+        font-size: 1rem;
+    }
+
+    .track-artwork-container {
+        width: 50px;
+        height: 50px;
+    }
+
+    .track-album-art,
+    .track-album-art-placeholder {
+        width: 50px;
+        height: 50px;
+    }
+
+    .track-name {
+        font-size: 0.95rem;
+    }
+
+    .track-artist {
+        font-size: 0.85rem;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .section {
+        padding: 60px 0;
     }
 }
